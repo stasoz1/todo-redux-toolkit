@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux';
-import { completeTodo } from '../redux/reducers/todo/actions'
+import { completeTodo } from '../redux-toolkit/todo/todoSlice'
 
 const Todo = (props) => {
     const { id, title, completed } = props.todo;
